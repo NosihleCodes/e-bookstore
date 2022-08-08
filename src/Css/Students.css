@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 75%;
+    height: 35px;
+    margin: 25px auto;
+}
+
+.header p{
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.verify{
+    width: 75%;
+    height: 50vh;
+    margin: 100px auto;
+}
+
+.verify .top{
+    width: 100%;
+    height: 35px;    
+}
+
+.verify .top p{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.verify .table{
+    width: 100%;
+    height: auto;
+}
+
+.verify .table table{
+    width: 75%;
+    height: auto;
+    margin: 55px auto;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, 
+    rgba(0, 0, 0, 0.07) 0px 2px 4px, 
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, 
+    rgba(0, 0, 0, 0.07) 0px 8px 16px, 
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, 
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.verify .table table tr th{
+    height: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #4169e1;
+    color: #fff;
+}
+
+.verify .table table tr .action{
+    width: 150px;
+    column-span: 2;
+}
+
+.verify .table table tr td{
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 45px;
+}
+
+.verify .table table tr td button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+.verify .table table tr td button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.verify .table table tr td .btnverify{
+    background-color: #4169e1;
+    color: #fff;
+}
+
+.verify .table table tr td .btnedit{
+    background-color: #4cbb17;
+    color: #fff;
+}
+
+.verify .table table tr td .btnremove{
+    background-color: #ff0800;
+    color: #fff;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 75%;
+    z-index: 200;    
+    position: absolute;
+    display: none;
+}
+
+.popup{
+    width: 25%;
+    height: 52vh;
+    background-color: #F5F5F5FD;
+    position: absolute;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    z-index: 205;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.popup p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.popup .content{
+    width: 85%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup .content label{
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.popup .content input[type=text]{
+    width: 85%;
+    height: 30px;
+    border: 1px solid #C0C0C0;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.popup .content .button{
+    width: 75%;
+    height: 45px;
+    margin: 15px auto;
+}
+
+.popup .content .button input[type=submit]{
+    width: 100px;
+    height: 35px;    
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.popup .content .button input[type=submit]:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.popup .content .button #btnCancel{
+    background-color: #4cbb17;
+    color: #fff;
+}
+
+.popup .content .button #btnSave{
+    background-color: #4169e1;
+    color: #fff;
+}
+
+.products{
+    width: 75%;
+    height: 50vh;
+    margin: 100px auto;
+}
+
+
+.products p{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.products .table{
+    width: 100%;
+    height: auto;
+}
+
+.products .table table{
+    width: 75%;
+    height: auto;
+    margin: 55px auto;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+    rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.products .table table tr th{
+    height: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #4169e1;
+    color: #fff;
+}
+
+.products .table table tr .action{
+    width: 150px;
+    column-span: 2;
+}
+
+.products .table table tr td{
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 45px;
+}
+
+.products .table table tr td button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+.products .table table tr td button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.products .table table tr td .btnverify{
+    background-color: #4169e1;
+    color: #fff;
+}
+
+.products .table table tr td .btnedit{
+    background-color: #4cbb17;
+    color: #fff;
+}
+
+.products .table table tr td .btnremove{
+    background-color: #ff0800;
+    color: #fff;
+}
+

@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar{
+    width: 100%;
+    height: 75vh;
+    background-color: #DCE5EC;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topBar .overlay{
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(to top, #BE537F 50%, #6D558B 100%);
+    z-index: 100;
+    position: absolute;
+    opacity: 50%;
+}
+
+.topBar img{
+    width: 100%;
+    height: 100%;
+}
+
+.topBar p{
+    font-size: 72px;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutUs {
+    width: 100%;
+    height: 75vh;
+}
+
+.aboutUs .title{
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.aboutUs .content {
+    width: 35%;
+    margin: 45px auto;
+}
+
+.aboutUs .content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .topBar{
+        width: 100%;
+        height: 50vh;
+        background-color: #DCE5EC;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .topBar .overlay{
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(to top, #BE537F 50%, #6D558B 100%);
+        z-index: 100;
+        position: absolute;
+        opacity: 50%;
+    }
+
+    .topBar p{
+        font-size: 45px;
+        color: #fff;
+        font-weight: 600;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .aboutUs .title{
+        font-size: 20px;
+    }
+
+    .aboutUs .content{
+        width: 50%;
+    }
+}

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 75%;
+    height: 150vh;
+    margin: 55px auto;
+}
+
+.main .detail {
+    width: 80%;
+    height: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.main .detail .title{
+    padding: 13px 0px 0px 10px;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+}
+
+.main .detail .block {
+    width: 80%;
+    height: 35px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main .detail .block p{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.main .upload{
+    width: 80%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 55px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .upload button{
+    width: 150px;
+    height: 48px;
+    background: #cc7722;
+    outline: none;
+    border:none;
+    border-radius: 15px;
+    align-self: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.main .upload button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main .upload  .form {
+    width: 75%;
+    height: 78vh;
+    font-family: 'Lato', sans-serif;
+    margin: 15px auto;
+    background-color: #fff;
+    box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 15px;
+    position: center;
+}
+
+.main .upload  .form h2{
+    padding: 25px 0px 0px 15px;
+}
+
+.main .upload .form .inputs{
+    width: 50%;
+    height: 70vh;
+    margin: 15px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .upload  .form .inputs input[type=text]{
+    width: 75%;
+    height: 35px;
+    padding: 5px 5px;
+    outline: none;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.main .upload .form .inputs #txtDescription{
+    width: 75%;
+    height: 150px;
+    padding: 0px 5px;
+    outline: none;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.main .upload  .form .inputs .upload{
+    width: 100%;
+    height: 45px;
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.main .upload  .form .inputs input[type=file]{
+    margin: 25px 0px 0px 5px;
+}
+
+.main .upload  .form .inputs .upload button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main .upload  .form .inputs .upload p {
+    align-self: center;
+    margin-left: 15px;
+}
+
+.main .upload  .form button{
+    width: 25%;
+    height: 40px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background-color: royalblue;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    align-self: center;
+    margin: 35px 0px 0px 0px;
+}
+
+.main .upload  .form button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .main{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .main .detail{
+        width: 100%;
+    }
+
+    .main .detail .block p {
+        font-size: 14px;
+    }
+
+    .main .upload{
+        width: 100%;
+        height: auto;
+    }
+
+    .main .upload button{
+        margin-top: 15px;
+    }
+
+    .main .upload .form{
+        width: 95%;
+        height: 80vh;
+    }
+
+    .main .upload .form .inputs{
+        width: 90%;
+        height: 75vh;
+    }
+
+    .main .upload .form .inputs button{
+        width: 150px;
+        margin-bottom: 25px;
+    }
+
+    .main .upload .form .inputs input[type=text]{
+        width: 100%;
+    }
+
+    .main .upload .form .inputs #txtDescription{
+        width: 100%;
+    }
+}
+

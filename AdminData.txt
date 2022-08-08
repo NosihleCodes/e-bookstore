@@ -1,0 +1,5 @@
+AD1013188|Tim|Smith|AD1013188@iie.edu.za|$argon2i$v=19$m=16,t=2,p=1$TFc0dEROb3M0SXlVSFNFRQ$cdg8pP6J7TyyfyodcrY5Ew
+AD1013162|Jim|Kai|AD1013162@iie.edu.za|$argon2i$v=19$m=16,t=2,p=1$TFc0dEROb3M0SXlVSFNFRQ$cdg8pP6J7TyyfyodcrY5Ew
+AD1013152|JP|Jones|AD1013152@iie.edu.za|$argon2i$v=19$m=16,t=2,p=1$TFc0dEROb3M0SXlVSFNFRQ$cdg8pP6J7TyyfyodcrY5Ew
+AD1013154|Kyle|Edendale|AD1013154@iie.edu.za|$argon2i$v=19$m=16,t=2,p=1$TFc0dEROb3M0SXlVSFNFRQ$cdg8pP6J7TyyfyodcrY5Ew
+AD1013122|Steven|Roger|AD1013122@iie.edu.za|$argon2i$v=19$m=16,t=2,p=1$TFc0dEROb3M0SXlVSFNFRQ$cdg8pP6J7TyyfyodcrY5Ew

@@ -1,0 +1,5 @@
+ST10131873;Owen;Burns;ST10131873@rcconnect.edu.za;DISD313;$argon2id$v=19$m=16,t=2,p=1$bGNNUjUyajVYb29UczFXbA$q3/h5Byt7IbG6mjOKedmGQ;1
+ST10131874;Kim;Jones;STST10131874@rcconnect.edu.za;DNM313;$argon2id$v=19$m=16,t=2,p=1$bGNNUjUyajVYb29UczFXbA$q3/h5Byt7IbG6mjOKedmGQ;0
+ST10131865;Tim;Kyle;ST10131865@rcconnect.edu.za;DISD313;$argon2id$v=19$m=16,t=2,p=1$bGNNUjUyajVYb29UczFXbA$q3/h5Byt7IbG6mjOKedmGQ;1
+ST10131844;John;Smith;ST10131844@rcconnect.edu.za;HIC121;$argon2id$v=19$m=16,t=2,p=1$bGNNUjUyajVYb29UczFXbA$q3/h5Byt7IbG6mjOKedmGQ;0
+ST10131822;Peter;Petegrow;ST10131822@rcconnect.edu.za;DISD313;$argon2id$v=19$m=16,t=2,p=1$bGNNUjUyajVYb29UczFXbA$q3/h5Byt7IbG6mjOKedmGQ;1

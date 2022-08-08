@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search_block {
+    width: 72%;
+    height: 75px;
+    margin: auto;
+    background-color: #F5F5FD;
+    display: flex;
+    border-radius: 25px;
+}
+
+.search_block img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    align-self: center;
+}
+
+.search_block input[type=text]{
+    width: 250px;
+    height: 35px;
+    align-self: center;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    padding: 7px 7px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+.model{
+    width: 75%;
+    margin: 45px auto;
+}
+
+.model h1{
+    font-family: 'Merriweather', serif;
+    margin-left: 25px;
+
+}
+
+.model h1 span {
+    font-style: italic;
+}
+
+.model .content{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.model .content .card{
+    width: 320px;
+    height: 550px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+    rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+
+.model .content .card img{
+    width: 75%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 15px;
+}
+
+.model .content .card .info{
+    width: 95%;
+    height: 150px;
+    margin: 45px auto;
+}
+
+.model .content .card .info a{
+    font-family: 'Microsoft Yahei';
+    font-size: 20px;
+    text-decoration: none;
+    color: #111;
+}
+
+.model .content .card .info a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.model .content .card .info p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.model .content .card .info button{
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #e4d00a;
+    color: #111;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.model .content .card .info button:hover{
+    height: 40px;
+    width: 170px;
+    padding: 0px 15px 0px 15px;
+    font-size: 16px;
+}
+
+.box{
+    width: 75%;
+    margin: 45px auto;
+}
+
+.box h1{
+    font-family: 'Merriweather', serif;
+    margin-left: 25px;
+}
+
+.cardview{
+    width: 100%;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardview .card{
+    width: 320px;
+    height: 550px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+    rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+
+.cardview .card img{
+    width: 75%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 15px;
+}
+
+.cardview .card .info{
+    width: 95%;
+    height: 150px;
+    margin: 45px auto;
+}
+
+.cardview .card .info a{
+    font-family: 'Microsoft Yahei';
+    font-size: 20px;
+    text-decoration: none;
+    color: #111;
+}
+
+.cardview .card .info a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cardview .card .info p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.cardview .card .info button{
+    width: 150px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #e4d00a;
+    color: #111;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cardview .card .info button:hover{
+    height: 40px;
+    width: 170px;
+    padding: 0px 15px 0px 15px;
+    font-size: 16px;
+}
+
+.header {
+    width: 75%;
+    height: 45px;
+    margin: 45px auto;
+}
+
+.header p{
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 27px;
+}
+
+.modal{
+    width: 0px;
+    height: 50px;
+    position: absolute;
+    z-index: 100;
+    background-color: #EE7600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 0%;
+    top: 5%;
+    display: none;
+}
+
+.modal p {
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+
+.modal img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #F5F5FD;
+    opacity: 60%;
+    z-index: 120;
+    display: none;
+}
+
+.popup{
+    width: 30%;
+    height: 250px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    align-self: center;
+    z-index: 120;
+    margin-top: 15px;
+    top: -50%;
+}
+
+.popup p{
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.popup .sub{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.popup .buttons{
+    width: 55%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 55px auto auto;
+    border-top: 1px solid #C0C0C0;
+}
+
+.popup .buttons button{
+    width: 100px;
+    height: 35px;
+    align-self: center;
+    outline: none;
+    border: none;
+    background-color: #4169e1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup .buttons button:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .head{
+        height: 15vh;
+    }
+
+    .popup{
+        width: 70%;
+        height: 250px;
+        position: absolute;
+        background-color: #fff;
+        border: 1px solid #C0C0C0;
+        border-radius: 15px;
+        align-self: center;
+        z-index: 120;
+        margin-top: 15px;
+        top: -50%;
+    }
+
+    .popup .buttons{
+        width: 75%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 55px auto auto;
+        border-top: 1px solid #C0C0C0;
+    }
+
+    .nav .container #cart_block{
+        display: none;
+    }
+
+}

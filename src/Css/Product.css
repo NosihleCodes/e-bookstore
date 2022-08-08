@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+.head{
+    width: 100%;
+    height: 15vh;
+}
+
+.head .logo {
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;    
+}
+
+.head .logo h1{
+    align-self: center;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: #EE7600;
+}
+
+.head .logo img{
+    width: 95px;
+    height: 95px;
+    align-self: center;
+}
+
+.nav{
+    width: 100%;
+    height: 55px;
+    background-color: #cc7722;
+}
+
+.nav .container{
+    width: 50%;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav .container .block{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #111;
+    justify-content: center;
+}
+
+.nav .container .block:last-child{
+    border: none;
+}
+
+.nav .container .block img{
+    width: 25px;
+    height: 25px;
+}
+
+.nav .container .block a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #111;
+    font-family: 'Microsoft Yahei';
+}
+
+.nav .container .block a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.nav .container .block input[type=text]{
+    width: 150px;
+    height: 45px;
+    outline: none;
+    border: none;
+    padding-left: 28px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.nav .container .block .search{
+    position: absolute;
+    z-index: 10;
+    left: 65%;
+    margin-left: 11px;
+}
+
+.nav .container .block .search:hover{
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .left{
+    width: 50%;
+    height: 100%;
+}
+
+.main .left img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+
+.main .right{
+    width: 45%;
+    height: 100%;
+    align-self: center;
+    margin: 55px auto;
+}
+
+.main .right .product_Name{
+    font-size: 26px;
+    font-family: 'Microsoft Yahei';
+}
+
+.main .right .sep{
+    width: 100px;
+    height: 0px;
+    border: 2px solid #111;
+    margin-top: 15px;
+}
+
+.main .right .price{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Microsoft Yahei';
+    margin-top: 25px;
+}
+
+.main .right .desc{
+    width: 75%;
+    height: auto;
+    margin-top: 25px ;
+    font-family: 'Microsoft Yahei';
+}
+
+.main .right .stock{
+    color: #006400;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.main .right .no_stock{
+    color: red;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.main .right .student_verified{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.main .right .student_verified p{
+    font-family: 'Microsoft Yahei';
+}
+
+.main .right .student_verified img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.main .right input[type=submit]{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 2px solid #111;
+    margin-top: 25px;
+    background-color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main .right input[type=submit]:hover{
+    background-color: #111;
+    color: #fff;
+}
+
+.main .right .isbn{
+    margin-top: 35px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.main h1{
+    font-family: 'Microsoft Yahei';
+    align-self: center;
+    margin-top: 150px;
+}
+
+.chat{
+    width: 15%;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, 
+    rgba(0, 0, 0, 0.07) 0px 2px 4px, 
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, 
+    rgba(0, 0, 0, 0.07) 0px 8px 16px, 
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, 
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: none;
+}
+
+.chat .topBar{
+    height: 55px;
+    border-bottom: 1px solid #C0C0C0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat .topBar p {
+    font-family: 'Microsoft Yahei';
+}
+
+.chat .topBar .close{
+    z-index: 105;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+.chat .topBar .close:hover{
+    cursor: pointer;
+}
+
+.chat .chatbox{
+    width: 99%;
+    height: 75%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat .chatbox .messages{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat .chatbox .messages .message{
+    width: 90%;
+    height: 70px;
+    border: 1px solid #C0C0C0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.chat .chatbox .messages .message p {
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.chat .chatbox .messages .message .sender{
+    margin: 5px 0px 0px 10px;
+    font-weight: bold;
+}
+
+.chat .chatbox .messages .message .content{
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+}
+
+.chat .chatbox::-webkit-scrollbar{
+    width: 5px;
+}
+
+.chat .box{
+    width: 90%;
+    background: #fff; 
+    margin:2px auto;  
+    padding: 10px;
+    position: relative;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; 
+    height:17px;
+    border:1px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.chat .box .message{
+    background: none;
+    border: none;
+    outline: none!important;
+    resize: none; 
+    font-size: 15px;
+    height: 24px;
+    margin: 0;
+    padding-right: 20px;
+    width: 265px;
+    color: #444;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat .box button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    color: #4169e1;
+}
+
+.chat .box button:hover{
+    color: #111;
+    cursor: pointer;
+}
+
+.chat .chatbox .parent{
+    width: 95%;
+    height: 35px;
+    border: 1px solid #111;
+    margin: 15px auto;
+    display: flex;
+}
+
+.chat .chatbox p {
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    max-width: 75%;
+    padding: 0.5rem .875rem;
+    position: relative;
+    word-wrap: break-word;
+    margin-top: 15px;
+}
+
+.chat .chatbox  p::before,
+.chat .chatbox  p::after {
+  bottom: -0.1rem;
+  content: "";
+  height: 1rem;
+  position: absolute;
+}
+
+.chat .chatbox p.from-me {
+    align-self: flex-end;
+    background-color: #248bf5;
+    color: #fff; 
+}
+
+.chat .chatbox  p.from-me::before {
+    border-bottom-left-radius: 0.8rem 0.7rem;
+    border-right: 1rem solid #248bf5;
+    right: -0.35rem;
+    transform: translate(0, -0.1rem);
+}
+  
+.chat .chatbox p.from-me::after {
+    background-color: #fff;
+    border-bottom-left-radius: 0.5rem;
+    right: -40px;
+    transform:translate(-30px, -2px);
+    width: 10px;
+}
+
+.chat .chatbox img{
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .main {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        margin: 55px auto;
+    }
+
+    .main .left{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main .right{
+        width: 100%;
+        height: 100%;
+    }
+
+    .chat{
+        width: 65%;
+        height: 41%;
+        position: fixed;
+        bottom: 15px;
+        margin: auto;
+        z-index: 200;
+    }
+}
